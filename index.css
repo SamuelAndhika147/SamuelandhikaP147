@@ -130,7 +130,7 @@ body{
          max-width: 85%;
          max-height: 600px;
          margin: auto;
-         width: 80%;
+         width: auto;
          height: auto;
     }
 }
@@ -139,7 +139,7 @@ body{
       .gelembung-pen #article{
         color: var(--c4);
         font-family: 'Gloria Hallelujah', cursive;
-        font-size: 26px;
+        font-size: 22px;
         text-align: center;
         margin-left: 0;
         line-height: 40px;
@@ -188,10 +188,10 @@ body{
 .organisasi{
     /* border-radius: 50%; */
     border: 8px solid var(--c4);
-    margin: auto;
     max-width: 85%;
     max-height: 750px;
     padding: 5px 5px 5px 5px;
+    margin: auto;
     width: 60%;
     height: auto;
     background-image: linear-gradient(var(--c6));
@@ -200,9 +200,9 @@ body{
 @media  screen and (max-width: 700px){
     .organisasi{
        font-size: 17px;
+       max-width: 85%;
+       max-height: 700px;
        margin: auto;
-       max-width: 400px;
-       max-height: 500px;
        width: auto;
        height: auto;
     }
@@ -241,9 +241,9 @@ body{
 @media  screen and (max-width: 700px){
     .prestasi{
        font-size: 17px;
-       max-width: 400px;
+       max-width: 85%;
+       max-height: 700px;
        margin: auto;
-       max-height: 500px;
        width: auto;
        height: auto;
     }
@@ -278,9 +278,9 @@ body{
 @media screen and (max-width: 700px){
    .skill{
        font-size: 17px;
-       max-width: 400px;
+       max-width: 85%;
+       max-height: 800px;
        margin: auto;
-       max-height: 600px;
        width: auto;
        height: auto;
    }
@@ -306,11 +306,11 @@ body{
 @media screen and (max-width: 700px){
     .inspirasi .kejar-id{
         font-size: 17px;
-       max-width: 400px;
-       margin: auto;
-       max-height: 600px;
-       width: auto;
-       height: auto;
+        max-width: 85%;
+        max-height: 800px;
+        margin: auto;
+        width: auto;
+        height: auto;
     }
  }
 
@@ -327,11 +327,11 @@ body{
 @media screen and (max-width: 700px){
     .inspirasi .Brainly{
         font-size: 17px;
-       max-width: 400px;
-       margin: auto;
-       max-height: 600px;
-       width: auto;
-       height: auto;
+        max-width: 85%;
+        max-height: 800px;
+        margin: auto;
+        width: auto;
+        height: auto;
     }
  }
 
@@ -348,13 +348,16 @@ body{
 @media screen and (max-width: 700px){
     .inspirasi .Peduli-lindungi{
         font-size: 17px;
-        max-width: 400px;
-        margin: auto;
-        max-height: 600px;
-        width: auto;
-        height: auto;
+       max-width: 85%;
+       max-height: 800px;
+       margin: auto;
+       width: auto;
+       height: auto;
     }
  }
+
+
+
 
 
 
